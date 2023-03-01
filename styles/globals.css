@@ -186,7 +186,7 @@ body{
   .home-product-grid .home-product-grid-col:nth-child(2n) .home-product-grid-item{
     @apply border-r;
   }
-  
+
 
   .home-product-grid .home-product-grid-col:nth-last-of-type(3) .home-product-grid-item,
   .home-product-grid .home-product-grid-col:nth-last-of-type(2) .home-product-grid-item,
@@ -236,7 +236,7 @@ body{
 
 
 .form-control{
- 
+
 }
 
 img{
@@ -277,4 +277,14 @@ img{
 
 .bg-pattern-black{
   background: url('/images/background-pattern.jpg') no-repeat center center/ cover;
+}
+
+
+.dev * {
+  outline: 1px dashed royalblue;
+  outline-offset: -1px;
+}
+.dev * > * {
+  outline: 1px dashed royalblue;
+  outline-offset: -1px;
 }
